@@ -1,0 +1,63 @@
+.box_dashboard{
+	display: block;
+    /*font-size: 15px;*/
+    margin-top: 38px;
+    white-space: nowrap;
+    margin-left: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#result-print .content-header{
+    
+}
+#result-print .content-header .school-logo{
+    float: left;
+    margin-right: 20px;
+}
+#result-print .content-header .school-logo{
+    height: 40px;
+}
+
+#result-print .content-header .school-name{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#result-print .content-header .document-info{
+    text-align: right;
+    font-weight: bold;
+}
+#result-print .content-header .document-info h6,
+#result-print .content-header .document-info p{
+    padding: 0;
+    margin: 0;
+}
+#result-print .content-header .document-info .document-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+#result-print .custom-table{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+#result-print .custom-table thead tr th{
+    border: 1px solid #000;
+    background: #e5f1fb;
+    color: #3F51B5;
+}
+
+@media print {
+    .no-print{
+        display: none;
+    }
+}
+
+.staffinfo-box img, .fadeoverlay img {
+    height: 100%;
+    object-fit: contain;
+}
+
+
